@@ -17,7 +17,6 @@ namespace Work6
 		static void Main()
 		{
 			_todoList = Serializer.Deserialize();
-			var a = "0xRomanEP0";
 			WriteMainView();
 
 			Serializer.Serialize(_todoList);
